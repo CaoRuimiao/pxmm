@@ -1,0 +1,150 @@
+@media screen and (max-width:320px) {
+    .body{width:100%;padding:120px 0 0 0;}
+    .mt10{margin-top: 5px;}
+    .mt20{margin-top:10px;}
+    /*------------head------------*/
+    .header{height:60px;}
+    .head{height:40px;padding: 10px 0;line-height: 40px;}
+    .head .back{}
+    .head .back img{width:18px;margin-top:5px;margin-left:14px;}
+    .head .back span{font-size: 1.6rem;line-height: 40px;float: left;margin-left: 5px;}
+    .head .title{font-size: 2.0rem;}
+    .head .hidden_nav{position: absolute;right:20px;top:20px;}
+    .head .hidden_nav img{width:25px;}
+
+    /*-----------搜索部分-----------*/
+    .search_sence{height:60px;position: fixed;top:59px;left:0;}
+    .search_sence .search_box{margin-top: 20px;}
+    .search_sence .search_box .logo{width:20%;margin-left: 14px;}
+    .search_sence .search_box .logo img{max-width: 100px;}
+    .search_sence .search_box .search{margin-right:14px;}
+    .search_sence .search_box .search input{line-height: 22px;border:0;padding-left:5%;font-size: 1.8rem;}
+    .search_sence .search_box .search img{width:20px;height:20px;position: absolute;right:2px;top: 4px;}
+
+    /*------------banner--------------*/
+    .top_banner{width:100%;margin-bottom:10px;position: relative;}
+    .top_banner .swiper-wrapper{}
+    .swiper-wrapper li{}
+    .swiper-wrapper li img{}
+    .swiper-container-horizontal>.swiper-pagination{text-align: right;padding-right:20px;width:96%;}
+    .swiper-pagination-bullet{width:5px;height:5px;border:3px solid #ffffff;border-radius: 50%;opacity: 1;background: none;}
+    .swiper-pagination-bullet-active{background: #ffffff;}
+    /*-----------icon-------------*/
+    .icon_sence{padding-bottom:20px;}
+    .icon_sence ul{}
+    .icon_sence ul li{width:25%;margin:0 auto;}
+    .icon_sence ul li a{display: block;font-size: 1.8rem;}
+    .icon_sence ul li a img{width:40px;margin: 10px auto;}
+    /*------------热销区1  2-----------*/
+    .sell1{}
+    .sell1 .left{width:50%; float: left;}
+    .sell1 .left a img{width:91.5%; margin: 0 auto; display: block;}
+    .sell1 .right{width:50%;float: left;}
+    .sell1 .right .right1,.sell1 .right .right2{width:100%;}
+    .sell1 .right .right_t{ margin-bottom: 7.5%;}
+    .sell1 .left a,.sell1 .right .right1 a,.sell1 .right .right2 a{display:block;}
+    .sell1 .right .right1 a img,.sell1 .right .right2 a img{width:91.5%; margin: 0 auto; display: block;}
+
+    /*------------据标题选取------------*/
+    .nav_title_box{width:100%;margin-top: 20px;}
+    .nav_title_box ul{}
+    .nav_title_box ul .item{margin:0 2.3%;text-align:center;float: left;font-size:1.8rem;line-height:30px;border-bottom:2px solid #ffffff;padding: 5px 0;}
+    .nav_title_box ul .active{border-bottom:2px solid #1d3750;}
+
+    /*---------------男式内裤-----------------*/
+    .man_sence{padding-top:20px;}
+    .man_sence .englishTitle{width:90%;margin: 0 auto 10px;}
+    .man_sence .englishTitle img{width:100%;display:block;margin: 0 auto;}
+    .man_sence h2{font-size:2.4rem;text-align: center;}
+    .man_sence ul{margin-top: 10px;}
+    .man_sence ul li{width:50%;float: left;text-align: center;overflow: hidden;}
+    .man_sence ul li a{display:block;}
+    .man_sence ul li a img{width:91.5%;margin:0 auto;}
+    .man_sence ul li a .title{font-size: 2.0rem;font-weight: bold;line-height:25px;overflow: hidden;}
+    .man_sence ul li a .message{font-size: 2.0rem;line-height:25px;overflow: hidden;}
+    .man_sence ul li a .price{font-size: 1.8rem;}
+
+    /*------------footer-------------*/
+    .footer{margin-top:20px;margin-bottom:20px;position: relative;}
+    .footer img{width:100px;display: block;margin: 0 auto;}
+    /*---------------返回顶部--------------*/
+    .back_top{width:40px;position: fixed;bottom: 80px;right:14px;z-index: 99;display: none;}
+    .back_top a{display:block;}
+    .back_top a img{width:100%;}
+}
+
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+    .body{width:100%;padding:130px 0 0 0;}
+    .mt10{margin-top: 5px;}
+    .mt20{margin-top:10px;}
+    /*------------head------------*/
+    .header{height:70px;}
+    .head{height:40px;padding: 10px 0;line-height: 40px;}
+    .head .back{}
+    .head .back img{width:20px;margin-top:5px;margin-left:14px;}
+    .head .back span{font-size: 2.0rem;line-height: 40px;float: left;margin-left: 5px;}
+    .head .title{font-size: 2.2rem;}
+    .head .hidden_nav{position: absolute;right:20px;top:20px;}
+    .head .hidden_nav img{width:30px;}
+
+    /*-----------搜索部分-----------*/
+    .search_sence{height:70px;position: fixed;top:59px;left:0;}
+    .search_sence .search_box{margin-top: 20px;}
+    .search_sence .search_box .logo{width:20%;margin-left: 14px;}
+    .search_sence .search_box .logo img{max-width: 100px;}
+    .search_sence .search_box .search{margin-right:14px;}
+    .search_sence .search_box .search input{line-height: 22px;border:0;padding-left:5%;font-size: 2.0rem;}
+    .search_sence .search_box .search img{width:20px;height:20px;position: absolute;right:2px;top: 4px;}
+
+    /*------------banner--------------*/
+    .top_banner{width:100%;margin-bottom:10px;position: relative;}
+    .top_banner .swiper-wrapper{}
+    .swiper-wrapper li{}
+    .swiper-wrapper li img{}
+    .swiper-container-horizontal>.swiper-pagination{text-align: right;padding-right:20px;width:96%;}
+    .swiper-pagination-bullet{width:6px;height:6px;border:3px solid #ffffff;border-radius: 50%;opacity: 1;background: none;}
+    .swiper-pagination-bullet-active{background: #ffffff;}
+    /*-----------icon-------------*/
+    .icon_sence{padding-bottom:20px;}
+    .icon_sence ul{}
+    .icon_sence ul li{width:25%;margin:0 auto;}
+    .icon_sence ul li a{display: block;font-size: 1.8rem;}
+    .icon_sence ul li a img{width:60px;margin: 10px auto;}
+    /*------------热销区1  2-----------*/
+    .sell1{}
+    .sell1 .left{width:50%; float: left;}
+    .sell1 .left a img{width:91.5%; margin: 0 auto; display: block;}
+    .sell1 .right{width:50%;float: left;}
+    .sell1 .right .right1,.sell1 .right .right2{width:100%;}
+    .sell1 .right .right_t{ margin-bottom: 7.5%;}
+    .sell1 .left a,.sell1 .right .right1 a,.sell1 .right .right2 a{display:block;}
+    .sell1 .right .right1 a img,.sell1 .right .right2 a img{width:91.5%; margin: 0 auto; display: block;}
+
+    /*------------据标题选取------------*/
+    .nav_title_box{width:100%;margin-top: 20px;}
+    .nav_title_box ul{}
+    .nav_title_box ul .item{margin:0 3%;text-align:center;float: left;font-size:1.8rem;line-height:30px;border-bottom:2px solid #ffffff;padding: 5px 0;}
+    .nav_title_box ul .active{border-bottom:2px solid #1d3750;}
+
+    /*---------------男式内裤-----------------*/
+    .man_sence{padding-top:20px;}
+    .man_sence .englishTitle{width:90%;margin: 0 auto 10px;}
+    .man_sence .englishTitle img{width:100%;display:block;margin: 0 auto;}
+    .man_sence h2{font-size:2.4rem;text-align: center;}
+    .man_sence ul{margin-top: 10px;}
+    .man_sence ul li{width:50%;float: left;text-align: center;overflow: hidden;}
+    .man_sence ul li a{display:block;}
+    .man_sence ul li a img{width:91.5%;margin:0 auto;}
+    .man_sence ul li a .title{font-size: 2.0rem;font-weight: bold;line-height:25px;overflow: hidden;}
+    .man_sence ul li a .message{font-size: 2.0rem;line-height:25px;overflow: hidden;}
+    .man_sence ul li a .price{font-size: 1.8rem;}
+
+    /*------------footer-------------*/
+    .footer{margin-top:20px;margin-bottom:20px;position: relative;}
+    .footer img{width:100px;display: block;margin: 0 auto;}
+    /*---------------返回顶部--------------*/
+    .back_top{width:40px;position: fixed;bottom: 80px;right:14px;z-index: 99;display: none;}
+    .back_top a{display:block;}
+    .back_top a img{width:100%;}
+}
